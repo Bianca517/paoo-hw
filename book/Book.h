@@ -18,6 +18,9 @@ class Book {
         Book(std::string newTitle, std::string newAuthor);
 
         Book(std::string newTitle, std::string newAuthor, std::string newGenre);
+
+        //copy-constructor
+        Book(Book &book);
         
         //no-args constructor
         Book();

@@ -18,13 +18,15 @@ int main() {
     Book book8 = Book("t8", "a8", "romance");
     Book book9 = Book("t9", "a9", "sci-fi");
     Book book10 = Book("t10", "a10", "sci-fi");
-    cout<<book1.toString();
+    cout<<book1.toString()<<"\n";
 
     Shelf shelf1 = Shelf("comedy");
+    cout<<"after creation" << book1.toString()<<"\n";
     shelf1.addBook(book1);
     shelf1.addBook(book2);
     shelf1.addBook(book3);
     shelf1.addBook(book4);
+    cout<<"after adding" << book1.toString()<<"\n";
 
     cout<<"Shelf 1\n";
     cout<<shelf1.toString();
@@ -43,7 +45,7 @@ int main() {
     cout<<"Shelf 2\n";
     Shelf shelf2 = Shelf(shelf1);
 
-    cout<< "copy finished";
+    cout<< "copy finished\n";
     cout<<shelf2.toString();
 
     cout<<"\n\n";

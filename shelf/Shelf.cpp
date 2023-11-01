@@ -11,9 +11,12 @@ Shelf::Shelf(std::string newGenre) {
 
 Shelf::Shelf(Shelf &shelf) {
     cout<<"copy constructor called\n";
-    currentBooks = shelf.currentBooks;
+    //cout << shelf.toString();
+    this->currentBooks = shelf.currentBooks;
     genre = shelf.genre;
+    books = new Book[TOTAL_NUMBER_OF_BOOKS];
     for(int i = 0; i < shelf.currentBooks; i++) {
+        //this->books[i] = Book();
         this->books[i] = shelf.books[i];
         cout<<"one assignment done\n";
     }
@@ -21,19 +24,17 @@ Shelf::Shelf(Shelf &shelf) {
 }
 
 Shelf::~Shelf() {
-    /*
-    for(int i = 0; i < this->TOTAL_NUMBER_OF_BOOKS; i++) {
-        delete books[i];
-    }
-    this.books = nullptr;
-    */
-   //was not ok because books array is not allocated with new
+    cout<<"shelf destructor called\n";
+    delete[] books;
+    //this.books = nullptr;
+    //was not ok because books array is not allocated with new
 }
 
 int Shelf::addBook(Book b) {
     cout << "in function addBook\n";
     if((TOTAL_NUMBER_OF_BOOKS > currentBooks) && (this->genre == b.getGenreString())) {
         cout << "book can be added\n";
+        cout << "temp book " << b.toString() << "\n"; 
         this->books[this->currentBooks] = b;
         currentBooks++;
         return 0;

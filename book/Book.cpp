@@ -22,18 +22,17 @@ Book::Book(std::string newTitle, std::string newAuthor) {
 }
 
 Book::Book(std::string newTitle, std::string newAuthor, std::string newGenre) {
-    unsigned int i;
-    this.title = malloc(sizeof(char) * (newTitle.length() + 1));
-    strcpy(this.title, newTitle.c_str());
-    this.title[newTitle.length()] = '\0';
+    this->title = new char[newTitle.length() + 1];
+    strcpy(this->title, newTitle.c_str());
+    this->title[newTitle.length()] = '\0';
 
-    this.author = malloc(sizeof(char) * (newAuthor.length() + 1));
-    strcpy(this.author, newAuthor.c_str());
-    this.author[newAuthor.length()] = '\0';
+    this->author = new char[newAuthor.length() + 1];
+    strcpy(this->author, newAuthor.c_str());
+    this->author[newAuthor.length()] = '\0';
 
-    this.genre = malloc(sizeof(char) * (newGenre.length() + 1));
-    strcpy(this.genre, newGenre.c_str());
-    this.genre[newGenre.length()] = '\0';
+    this->genre = new char[newGenre.length() + 1];
+    strcpy(this->genre, newGenre.c_str());
+    this->genre[newGenre.length()] = '\0';
 }
 
 //no-args constructor
@@ -41,6 +40,17 @@ Book::Book() {
     this->title = new char[DEFAULT_LENGTH];
     this->author = new char[DEFAULT_LENGTH];
     this->genre = new char[DEFAULT_LENGTH];
+}
+
+//copy constructor
+Book::Book(Book &book){
+    cout << "in book coppy constructor\n";
+    this->title = new char[DEFAULT_LENGTH];
+    this->author = new char[DEFAULT_LENGTH];
+    this->genre = new char[DEFAULT_LENGTH];
+    strcpy(this->title, book.title);
+    strcpy(this->author, book.author);
+    strcpy(this->genre, book.genre);
 }
 
 
@@ -99,7 +109,11 @@ std::string Book::toString() {
 
 Book::~Book() {
     cout<<"book destructor called\n";
-    delete[] title;
-    delete[] author;
-    delete[] genre;
+    cout<<this->toString() << " carte distrusa \n";
+    if(this->getTitleString().length() != 0) {
+        cout<<"cacacios\n";
+        delete[] title;
+        delete[] author;
+        delete[] genre;
+    }
 }
