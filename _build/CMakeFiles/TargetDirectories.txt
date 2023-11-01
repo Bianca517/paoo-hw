@@ -1,0 +1,6 @@
+G:/_devPrj/paoo-hw/_build/CMakeFiles/main.dir
+G:/_devPrj/paoo-hw/_build/CMakeFiles/ALL_BUILD.dir
+G:/_devPrj/paoo-hw/_build/CMakeFiles/ZERO_CHECK.dir
+G:/_devPrj/paoo-hw/_build/book/CMakeFiles/book.dir
+G:/_devPrj/paoo-hw/_build/shelf/CMakeFiles/shelf.dir
+G:/_devPrj/paoo-hw/_build/library/CMakeFiles/library.dir

@@ -1,0 +1,10 @@
+^G:\_DEVPRJ\PAOO-HW\_BUILD\CMAKEFILES\2AB4E057B725E904A1B58765D3897004\GENERATE.STAMP.RULE
+setlocal
+G:\_devTools\CMake\bin\cmake.exe -SG:/_devPrj/paoo-hw -BG:/_devPrj/paoo-hw/_build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file G:/_devPrj/paoo-hw/_build/main.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,25 @@
+# CMake generation dependency list for this directory.
+G:/_devPrj/paoo-hw/CMakeLists.txt
+G:/_devPrj/paoo-hw/_build/CMakeFiles/3.28.0-rc3/CMakeCCompiler.cmake
+G:/_devPrj/paoo-hw/_build/CMakeFiles/3.28.0-rc3/CMakeCXXCompiler.cmake
+G:/_devPrj/paoo-hw/_build/CMakeFiles/3.28.0-rc3/CMakeRCCompiler.cmake
+G:/_devPrj/paoo-hw/_build/CMakeFiles/3.28.0-rc3/CMakeSystem.cmake
+G:/_devTools/CMake/share/cmake-3.28/Modules/CMakeCInformation.cmake
+G:/_devTools/CMake/share/cmake-3.28/Modules/CMakeCXXInformation.cmake
+G:/_devTools/CMake/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake
+G:/_devTools/CMake/share/cmake-3.28/Modules/CMakeGenericSystem.cmake
+G:/_devTools/CMake/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake
+G:/_devTools/CMake/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake
+G:/_devTools/CMake/share/cmake-3.28/Modules/CMakeRCInformation.cmake
+G:/_devTools/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake
+G:/_devTools/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake
+G:/_devTools/CMake/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+G:/_devTools/CMake/share/cmake-3.28/Modules/Compiler/MSVC-C.cmake
+G:/_devTools/CMake/share/cmake-3.28/Modules/Compiler/MSVC-CXX.cmake
+G:/_devTools/CMake/share/cmake-3.28/Modules/Compiler/MSVC.cmake
+G:/_devTools/CMake/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake
+G:/_devTools/CMake/share/cmake-3.28/Modules/Platform/Windows-MSVC-C.cmake
+G:/_devTools/CMake/share/cmake-3.28/Modules/Platform/Windows-MSVC-CXX.cmake
+G:/_devTools/CMake/share/cmake-3.28/Modules/Platform/Windows-MSVC.cmake
+G:/_devTools/CMake/share/cmake-3.28/Modules/Platform/Windows.cmake
+G:/_devTools/CMake/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake
