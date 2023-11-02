@@ -26,7 +26,7 @@ events:
       Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
       Copyright (C) Microsoft Corporation. All rights reserved.
       
-      Build started 11/2/2023 1:25:01 PM.
+      Build started 11/2/2023 2:43:22 PM.
       Project "G:\\_devPrj\\paoo-hw\\_build\\CMakeFiles\\3.28.0-rc3\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
       PrepareForBuild:
         Creating directory "Debug\\".
@@ -52,7 +52,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:02.05
+      Time Elapsed 00:00:03.37
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -80,7 +80,7 @@ events:
       Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
       Copyright (C) Microsoft Corporation. All rights reserved.
       
-      Build started 11/2/2023 1:25:03 PM.
+      Build started 11/2/2023 2:43:26 PM.
       Project "G:\\_devPrj\\paoo-hw\\_build\\CMakeFiles\\3.28.0-rc3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
         Creating directory "Debug\\".
@@ -106,7 +106,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:01.44
+      Time Elapsed 00:00:02.00
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -125,8 +125,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "G:/_devPrj/paoo-hw/_build/CMakeFiles/CMakeScratch/TryCompile-w217pm"
-      binary: "G:/_devPrj/paoo-hw/_build/CMakeFiles/CMakeScratch/TryCompile-w217pm"
+      source: "G:/_devPrj/paoo-hw/_build/CMakeFiles/CMakeScratch/TryCompile-7olgse"
+      binary: "G:/_devPrj/paoo-hw/_build/CMakeFiles/CMakeScratch/TryCompile-7olgse"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
@@ -134,39 +134,39 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'G:/_devPrj/paoo-hw/_build/CMakeFiles/CMakeScratch/TryCompile-w217pm'
+        Change Dir: 'G:/_devPrj/paoo-hw/_build/CMakeFiles/CMakeScratch/TryCompile-7olgse'
         
-        Run Build Command(s): "G:/_devTools/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_b9e8e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Run Build Command(s): "G:/_devTools/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_937ad.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
         Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
         Copyright (C) Microsoft Corporation. All rights reserved.
         
-        Build started 11/2/2023 1:25:05 PM.
-        Project "G:\\_devPrj\\paoo-hw\\_build\\CMakeFiles\\CMakeScratch\\TryCompile-w217pm\\cmTC_b9e8e.vcxproj" on node 1 (default targets).
+        Build started 11/2/2023 2:43:28 PM.
+        Project "G:\\_devPrj\\paoo-hw\\_build\\CMakeFiles\\CMakeScratch\\TryCompile-7olgse\\cmTC_937ad.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_b9e8e.dir\\Debug\\".
-          Creating directory "G:\\_devPrj\\paoo-hw\\_build\\CMakeFiles\\CMakeScratch\\TryCompile-w217pm\\Debug\\".
-          Creating directory "cmTC_b9e8e.dir\\Debug\\cmTC_b9e8e.tlog\\".
+          Creating directory "cmTC_937ad.dir\\Debug\\".
+          Creating directory "G:\\_devPrj\\paoo-hw\\_build\\CMakeFiles\\CMakeScratch\\TryCompile-7olgse\\Debug\\".
+          Creating directory "cmTC_937ad.dir\\Debug\\cmTC_937ad.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_b9e8e.dir\\Debug\\cmTC_b9e8e.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_937ad.dir\\Debug\\cmTC_937ad.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         ClCompile:
-          G:\\_devTools\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b9e8e.dir\\Debug\\\\" /Fd"cmTC_b9e8e.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "G:\\_devTools\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          G:\\_devTools\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_937ad.dir\\Debug\\\\" /Fd"cmTC_937ad.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "G:\\_devTools\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30148 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
           CMakeCCompilerABI.c
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b9e8e.dir\\Debug\\\\" /Fd"cmTC_b9e8e.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "G:\\_devTools\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_937ad.dir\\Debug\\\\" /Fd"cmTC_937ad.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "G:\\_devTools\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
         Link:
-          G:\\_devTools\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"G:\\_devPrj\\paoo-hw\\_build\\CMakeFiles\\CMakeScratch\\TryCompile-w217pm\\Debug\\cmTC_b9e8e.exe" /INCREMENTAL /ILK:"cmTC_b9e8e.dir\\Debug\\cmTC_b9e8e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:/_devPrj/paoo-hw/_build/CMakeFiles/CMakeScratch/TryCompile-w217pm/Debug/cmTC_b9e8e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:/_devPrj/paoo-hw/_build/CMakeFiles/CMakeScratch/TryCompile-w217pm/Debug/cmTC_b9e8e.lib" /MACHINE:X64  /machine:x64 cmTC_b9e8e.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_b9e8e.vcxproj -> G:\\_devPrj\\paoo-hw\\_build\\CMakeFiles\\CMakeScratch\\TryCompile-w217pm\\Debug\\cmTC_b9e8e.exe
+          G:\\_devTools\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"G:\\_devPrj\\paoo-hw\\_build\\CMakeFiles\\CMakeScratch\\TryCompile-7olgse\\Debug\\cmTC_937ad.exe" /INCREMENTAL /ILK:"cmTC_937ad.dir\\Debug\\cmTC_937ad.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:/_devPrj/paoo-hw/_build/CMakeFiles/CMakeScratch/TryCompile-7olgse/Debug/cmTC_937ad.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:/_devPrj/paoo-hw/_build/CMakeFiles/CMakeScratch/TryCompile-7olgse/Debug/cmTC_937ad.lib" /MACHINE:X64  /machine:x64 cmTC_937ad.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_937ad.vcxproj -> G:\\_devPrj\\paoo-hw\\_build\\CMakeFiles\\CMakeScratch\\TryCompile-7olgse\\Debug\\cmTC_937ad.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_b9e8e.dir\\Debug\\cmTC_b9e8e.tlog\\unsuccessfulbuild".
-          Touching "cmTC_b9e8e.dir\\Debug\\cmTC_b9e8e.tlog\\cmTC_b9e8e.lastbuildstate".
-        Done Building Project "G:\\_devPrj\\paoo-hw\\_build\\CMakeFiles\\CMakeScratch\\TryCompile-w217pm\\cmTC_b9e8e.vcxproj" (default targets).
+          Deleting file "cmTC_937ad.dir\\Debug\\cmTC_937ad.tlog\\unsuccessfulbuild".
+          Touching "cmTC_937ad.dir\\Debug\\cmTC_937ad.tlog\\cmTC_937ad.lastbuildstate".
+        Done Building Project "G:\\_devPrj\\paoo-hw\\_build\\CMakeFiles\\CMakeScratch\\TryCompile-7olgse\\cmTC_937ad.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:01.44
+        Time Elapsed 00:00:02.05
         
       exitCode: 0
   -
@@ -178,8 +178,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "G:/_devPrj/paoo-hw/_build/CMakeFiles/CMakeScratch/TryCompile-qecfgq"
-      binary: "G:/_devPrj/paoo-hw/_build/CMakeFiles/CMakeScratch/TryCompile-qecfgq"
+      source: "G:/_devPrj/paoo-hw/_build/CMakeFiles/CMakeScratch/TryCompile-uv3pmt"
+      binary: "G:/_devPrj/paoo-hw/_build/CMakeFiles/CMakeScratch/TryCompile-uv3pmt"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
@@ -187,39 +187,39 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'G:/_devPrj/paoo-hw/_build/CMakeFiles/CMakeScratch/TryCompile-qecfgq'
+        Change Dir: 'G:/_devPrj/paoo-hw/_build/CMakeFiles/CMakeScratch/TryCompile-uv3pmt'
         
-        Run Build Command(s): "G:/_devTools/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_bb611.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Run Build Command(s): "G:/_devTools/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_d0326.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
         Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
         Copyright (C) Microsoft Corporation. All rights reserved.
         
-        Build started 11/2/2023 1:25:07 PM.
-        Project "G:\\_devPrj\\paoo-hw\\_build\\CMakeFiles\\CMakeScratch\\TryCompile-qecfgq\\cmTC_bb611.vcxproj" on node 1 (default targets).
+        Build started 11/2/2023 2:43:31 PM.
+        Project "G:\\_devPrj\\paoo-hw\\_build\\CMakeFiles\\CMakeScratch\\TryCompile-uv3pmt\\cmTC_d0326.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_bb611.dir\\Debug\\".
-          Creating directory "G:\\_devPrj\\paoo-hw\\_build\\CMakeFiles\\CMakeScratch\\TryCompile-qecfgq\\Debug\\".
-          Creating directory "cmTC_bb611.dir\\Debug\\cmTC_bb611.tlog\\".
+          Creating directory "cmTC_d0326.dir\\Debug\\".
+          Creating directory "G:\\_devPrj\\paoo-hw\\_build\\CMakeFiles\\CMakeScratch\\TryCompile-uv3pmt\\Debug\\".
+          Creating directory "cmTC_d0326.dir\\Debug\\cmTC_d0326.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_bb611.dir\\Debug\\cmTC_bb611.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_d0326.dir\\Debug\\cmTC_d0326.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         ClCompile:
-          G:\\_devTools\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_bb611.dir\\Debug\\\\" /Fd"cmTC_bb611.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "G:\\_devTools\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          G:\\_devTools\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_d0326.dir\\Debug\\\\" /Fd"cmTC_d0326.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "G:\\_devTools\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30148 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
           CMakeCXXCompilerABI.cpp
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_bb611.dir\\Debug\\\\" /Fd"cmTC_bb611.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "G:\\_devTools\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_d0326.dir\\Debug\\\\" /Fd"cmTC_d0326.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "G:\\_devTools\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
         Link:
-          G:\\_devTools\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"G:\\_devPrj\\paoo-hw\\_build\\CMakeFiles\\CMakeScratch\\TryCompile-qecfgq\\Debug\\cmTC_bb611.exe" /INCREMENTAL /ILK:"cmTC_bb611.dir\\Debug\\cmTC_bb611.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:/_devPrj/paoo-hw/_build/CMakeFiles/CMakeScratch/TryCompile-qecfgq/Debug/cmTC_bb611.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:/_devPrj/paoo-hw/_build/CMakeFiles/CMakeScratch/TryCompile-qecfgq/Debug/cmTC_bb611.lib" /MACHINE:X64  /machine:x64 cmTC_bb611.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_bb611.vcxproj -> G:\\_devPrj\\paoo-hw\\_build\\CMakeFiles\\CMakeScratch\\TryCompile-qecfgq\\Debug\\cmTC_bb611.exe
+          G:\\_devTools\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"G:\\_devPrj\\paoo-hw\\_build\\CMakeFiles\\CMakeScratch\\TryCompile-uv3pmt\\Debug\\cmTC_d0326.exe" /INCREMENTAL /ILK:"cmTC_d0326.dir\\Debug\\cmTC_d0326.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:/_devPrj/paoo-hw/_build/CMakeFiles/CMakeScratch/TryCompile-uv3pmt/Debug/cmTC_d0326.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:/_devPrj/paoo-hw/_build/CMakeFiles/CMakeScratch/TryCompile-uv3pmt/Debug/cmTC_d0326.lib" /MACHINE:X64  /machine:x64 cmTC_d0326.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_d0326.vcxproj -> G:\\_devPrj\\paoo-hw\\_build\\CMakeFiles\\CMakeScratch\\TryCompile-uv3pmt\\Debug\\cmTC_d0326.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_bb611.dir\\Debug\\cmTC_bb611.tlog\\unsuccessfulbuild".
-          Touching "cmTC_bb611.dir\\Debug\\cmTC_bb611.tlog\\cmTC_bb611.lastbuildstate".
-        Done Building Project "G:\\_devPrj\\paoo-hw\\_build\\CMakeFiles\\CMakeScratch\\TryCompile-qecfgq\\cmTC_bb611.vcxproj" (default targets).
+          Deleting file "cmTC_d0326.dir\\Debug\\cmTC_d0326.tlog\\unsuccessfulbuild".
+          Touching "cmTC_d0326.dir\\Debug\\cmTC_d0326.tlog\\cmTC_d0326.lastbuildstate".
+        Done Building Project "G:\\_devPrj\\paoo-hw\\_build\\CMakeFiles\\CMakeScratch\\TryCompile-uv3pmt\\cmTC_d0326.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:01.34
+        Time Elapsed 00:00:01.61
         
       exitCode: 0
 ...

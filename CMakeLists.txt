@@ -6,13 +6,12 @@ set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
-# Add subdirectories for your classes
+#Link recursively the CMakeLists.txt files of the child directories
 add_subdirectory(book)
 add_subdirectory(shelf)
 add_subdirectory(library)
 
-# Create the main executable and link the library target
 add_executable(main main.cpp)
 
-# Link the library target to the main executable
+# add_library cannot create target "main" because another target with the same name already exists.
 target_link_libraries(main PRIVATE book shelf library)
