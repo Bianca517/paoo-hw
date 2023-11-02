@@ -43,11 +43,11 @@ class Book {
 
         std::string getGenreString();
 
-        void setTitle(char newTitle[]);
+        void setTitle(std::string newTitle);
 
-        void setAuthor(char newAuthor[]);
+        void setAuthor(std::string newAuthor);
 
-        void setGenre(char newGenre[]);
+        void setGenre(std::string newGenre);
 
         std::string toString();
 };

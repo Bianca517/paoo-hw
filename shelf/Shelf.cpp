@@ -26,6 +26,7 @@ Shelf::Shelf(Shelf &shelf) {
 Shelf::~Shelf() {
     cout<<"shelf destructor called\n";
     delete[] books;
+    cout<<"shelf destructor finished\n";
     //this.books = nullptr;
     //was not ok because books array is not allocated with new
 }

@@ -12,12 +12,12 @@ int main() {
     Book book2 = Book("t2", "a2", "romance");
     Book book3 = Book("t3", "a3", "comedy");
     Book book4 = Book("t4", "a4", "comedy");
-    Book book5 = Book("t5", "a5", "history");
-    Book book6 = Book("t6", "a6", "history");
-    Book book7 = Book("t7", "a7", "history");
-    Book book8 = Book("t8", "a8", "romance");
-    Book book9 = Book("t9", "a9", "sci-fi");
-    Book book10 = Book("t10", "a10", "sci-fi");
+    //Book book5 = Book("t5", "a5", "history");
+    //Book book6 = Book("t6", "a6", "history");
+    //Book book7 = Book("t7", "a7", "history");
+    //Book book8 = Book("t8", "a8", "romance");
+    //Book book9 = Book("t9", "a9", "sci-fi");
+    //Book book10 = Book("t10", "a10", "sci-fi");
     cout<<book1.toString()<<"\n";
 
     Shelf shelf1 = Shelf("comedy");
@@ -49,6 +49,7 @@ int main() {
     cout<<shelf2.toString();
 
     cout<<"\n\n";
+    cout<<"finished program\n";
 
     return 0;
 }

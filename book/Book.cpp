@@ -91,16 +91,19 @@ std::string Book::getGenreString() {
     return str_to_return;
 }
 
-void Book::setTitle(char *newTitle) {
-    strcpy(this->title, newTitle);
+void Book::setTitle(std::string newTitle) {
+    cout << "in set title " << newTitle << "\n";
+    this->title = new char[newTitle.length() + 1];
+    strcpy(this->title, newTitle.c_str());
+    this->title[newTitle.length()] = '\0';
 }
 
-void Book::setAuthor(char newAuthor[]) {
-    strcpy(this->author, newAuthor);
+void Book::setAuthor(std::string newAuthor) {
+    strcpy(this->author, newAuthor.c_str());
 }
 
-void Book::setGenre(char newGenre[]) {
-    strcpy(this->genre, newGenre);
+void Book::setGenre(std::string newGenre) {
+    strcpy(this->genre, newGenre.c_str());
 }
 
 std::string Book::toString() {
@@ -111,7 +114,6 @@ Book::~Book() {
     cout<<"book destructor called\n";
     cout<<this->toString() << " carte distrusa \n";
     if(this->getTitleString().length() != 0) {
-        cout<<"cacacios\n";
         delete[] title;
         delete[] author;
         delete[] genre;

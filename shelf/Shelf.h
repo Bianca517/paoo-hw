@@ -11,7 +11,7 @@ class Shelf {
     private:
         std::string genre;
         int currentBooks;
-        static const int TOTAL_NUMBER_OF_BOOKS = 20;
+        static const int TOTAL_NUMBER_OF_BOOKS = 5;
         Book *books;
     
     public:
