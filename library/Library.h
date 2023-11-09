@@ -5,17 +5,15 @@
 #define LIBRARY_H
 #include "../shelf/Shelf.h"
 
-class Library {
-    private:
-        std::vector<Shelf> shelves;
-        std::string name;
-        int currentShelves;
-        const int MAX_NUMBER_SHELVES = 50;
-    
-    public:
-        Library(std::string name);
+class Library
+{
+private:
+    std::string name;
+    int currentShelves;
+    const int MAX_NUMBER_SHELVES = 50;
 
-        void addShelf(Shelf s);
+public:
+    Library(std::string name);
 };
 
-#endif //Library.h
+#endif // Library.h

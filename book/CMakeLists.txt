@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.2) 
+cmake_minimum_required(VERSION 3.2)     
 
-set(myfiles book.cpp book.h)
+set(myfiles novelbook.cpp poembook.cpp book.cpp book.h)
 add_library(book STATIC ${myfiles})

@@ -1,0 +1,2 @@
+D:/MinGW/bin/ar.exe qc libshelf.a CMakeFiles/shelf.dir/ShelfNovelBooks.cpp.obj CMakeFiles/shelf.dir/ShelfPoemBooks.cpp.obj CMakeFiles/shelf.dir/Shelf.cpp.obj
+D:/MinGW/bin/ranlib.exe libshelf.a

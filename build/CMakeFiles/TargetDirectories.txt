@@ -1,0 +1,12 @@
+G:/_devPrj/paoo-hw/build/CMakeFiles/main.dir
+G:/_devPrj/paoo-hw/build/CMakeFiles/edit_cache.dir
+G:/_devPrj/paoo-hw/build/CMakeFiles/rebuild_cache.dir
+G:/_devPrj/paoo-hw/build/book/CMakeFiles/book.dir
+G:/_devPrj/paoo-hw/build/book/CMakeFiles/edit_cache.dir
+G:/_devPrj/paoo-hw/build/book/CMakeFiles/rebuild_cache.dir
+G:/_devPrj/paoo-hw/build/shelf/CMakeFiles/shelf.dir
+G:/_devPrj/paoo-hw/build/shelf/CMakeFiles/edit_cache.dir
+G:/_devPrj/paoo-hw/build/shelf/CMakeFiles/rebuild_cache.dir
+G:/_devPrj/paoo-hw/build/library/CMakeFiles/library.dir
+G:/_devPrj/paoo-hw/build/library/CMakeFiles/edit_cache.dir
+G:/_devPrj/paoo-hw/build/library/CMakeFiles/rebuild_cache.dir

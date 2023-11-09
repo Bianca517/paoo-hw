@@ -1,29 +1,27 @@
 #include <iostream>
 #include <string>
+#include <vector>
 using namespace std;
 
 #ifndef SHELF_H
 #define SHELF_H
 #include "../book/Book.h"
 
-class Shelf {
+class Shelf
+{
 
-    private:
-        std::string genre;
-        int currentBooks;
-        static const int TOTAL_NUMBER_OF_BOOKS = 5;
-        Book *books;
-    
-    public:
-        Shelf(std::string newGenre);
+protected:
+    std::string genre;
+    int currentBooks;
 
-        Shelf(Shelf &shelf);
+public:
+    Shelf(std::string newGenre);
 
-        ~Shelf();
+    virtual std::string toString() = 0;
 
-        int addBook(Book b);
+    int getCurrentBooksNumber() const;
 
-        std::string toString();
+    std::string getGenre() const;
 };
 
-#endif //Shelf.h
+#endif // Shelf.h

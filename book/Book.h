@@ -6,7 +6,7 @@ using namespace std;
 #define BOOK_H
 
 class Book {
-    private:
+    protected:
         char *title;
         char *author;
         char *genre;
@@ -20,7 +20,10 @@ class Book {
         Book(std::string newTitle, std::string newAuthor, std::string newGenre);
 
         //copy-constructor
-        Book(Book &book);
+        Book(const Book &book);
+
+        //move-constructor
+        Book(Book &&book);
         
         //no-args constructor
         Book();
@@ -50,6 +53,8 @@ class Book {
         void setGenre(std::string newGenre);
 
         std::string toString();
+
+        virtual void addContent() = 0;
 };
 
 #endif //Book.h
