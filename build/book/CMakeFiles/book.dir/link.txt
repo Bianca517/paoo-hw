@@ -1,0 +1,2 @@
+D:/MinGW/bin/ar.exe qc libbook.a CMakeFiles/book.dir/NovelBook.cpp.obj CMakeFiles/book.dir/PoemBook.cpp.obj CMakeFiles/book.dir/Book.cpp.obj
+D:/MinGW/bin/ranlib.exe libbook.a
