@@ -105,4 +105,4 @@ shelf/CMakeFiles/shelf.dir/ShelfNovelBooks.cpp.obj: \
  d:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_bvector.h \
  d:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\vector.tcc \
  g:\_devprj\paoo-hw\book\book.h g:\_devprj\paoo-hw\book\novelbook.cpp \
- g:\_devprj\paoo-hw\book\Book.h G:/_devPrj/paoo-hw/shelf/ShelfConstants.h
+ g:\_devprj\paoo-hw\book\Book.h g:\_devprj\paoo-hw\constants.h

@@ -1,17 +1,7 @@
 #include <vector>
 #include <string>
 #include "Library.h"
-#include "../shelf/Shelf.h"
+#include "../Constants.h"
 
-Library::Library(std::string name) {
-    this->name = name;
-}
-
-/*
-void Library::addShelf(Shelf s) {
-    if(currentShelves < MAX_NUMBER_SHELVES) {
-        shelves.push_back(s);
-        currentShelves++;
-    }
-}
-*/
+#include "../shelf/ShelfNovelBooks.cpp"
+#include "../shelf/ShelfPoemBooks.cpp"

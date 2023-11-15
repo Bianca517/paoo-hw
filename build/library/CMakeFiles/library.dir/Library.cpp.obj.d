@@ -80,7 +80,8 @@ library/CMakeFiles/library.dir/Library.cpp.obj: \
  d:\mingw\include\stdio.h \
  d:\mingw\lib\gcc\mingw32\6.3.0\include\c++\cerrno \
  d:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\basic_string.tcc \
- G:/_devPrj/paoo-hw/library/Library.h g:\_devprj\paoo-hw\shelf\shelf.h \
+ G:/_devPrj/paoo-hw/library/Library.h \
+ g:\_devprj\paoo-hw\shelf\shelfnovelbooks.cpp \
  d:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream \
  d:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream \
  d:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ios \
@@ -104,4 +105,8 @@ library/CMakeFiles/library.dir/Library.cpp.obj: \
  d:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\ostream.tcc \
  d:\mingw\lib\gcc\mingw32\6.3.0\include\c++\istream \
  d:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\istream.tcc \
- g:\_devprj\paoo-hw\book\book.h
+ g:\_devprj\paoo-hw\shelf\Shelf.h g:\_devprj\paoo-hw\book\book.h \
+ g:\_devprj\paoo-hw\book\novelbook.cpp g:\_devprj\paoo-hw\book\Book.h \
+ g:\_devprj\paoo-hw\constants.h \
+ g:\_devprj\paoo-hw\shelf\shelfpoembooks.cpp \
+ g:\_devprj\paoo-hw\book\poembook.cpp

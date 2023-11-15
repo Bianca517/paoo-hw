@@ -11,7 +11,7 @@ add_subdirectory(book)
 add_subdirectory(shelf)
 add_subdirectory(library)
 
-add_executable(main main.cpp)
+add_executable(main main.cpp)   
 
 # add_library cannot create target "main" because another target with the same name already exists.
 target_link_libraries(main PRIVATE book shelf library)

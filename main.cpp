@@ -113,5 +113,23 @@ int main()
     cout << "\n\n";
     cout << "program finished\n";
 
+    Library<ShelfNovelBooks> novelLibrary1("l1");
+    Library<ShelfPoemBooks> poemLibrary1("l2");
+
+    shelf3.addBook(PoemBook("djf", "sdof", "romance"));
+    shelf3.addBook(PoemBook("sddjf", "sdgrrfof", "romance"));
+    shelf3.addBook(PoemBook("djsdf", "sdorgerf", "romance"));
+
+    poemLibrary1.addShelf(shelf3);
+
+    novelLibrary1.addShelf(shelf1);
+    novelLibrary1.addShelf(shelf2);
+
+    cout << "---- library 1 with poems ------------\n";
+    cout << poemLibrary1.toString();
+    cout << "\n\n";
+
+    cout << "---- library 2 with novels ------------\n";
+    cout << novelLibrary1.toString();
     return 0;
 }
