@@ -1,4 +1,5 @@
 #include <iostream>
+#include <memory>
 using namespace std;
 
 #include "library/Library.h"
@@ -111,25 +112,55 @@ int main()
     cout << poem_book4.toString();
 
     cout << "\n\n";
-    cout << "program finished\n";
-
-    Library<ShelfNovelBooks> novelLibrary1("l1");
-    Library<ShelfPoemBooks> poemLibrary1("l2");
 
     shelf3.addBook(PoemBook("djf", "sdof", "romance"));
     shelf3.addBook(PoemBook("sddjf", "sdgrrfof", "romance"));
     shelf3.addBook(PoemBook("djsdf", "sdorgerf", "romance"));
 
-    poemLibrary1.addShelf(shelf3);
+    // scope
+    {
+        cout << "\n\n in scope 1\n\n";
+        // Library<ShelfPoemBooks> poemLibrary1("l2");
+        std::unique_ptr<Library<ShelfPoemBooks>> poemLibrary1 = std::make_unique<Library<ShelfPoemBooks>>("l1");
+        poemLibrary1->addShelf(shelf3);
+        cout << "---- library 1 with poems ------------\n";
+        cout << poemLibrary1->toString();
+        cout << "\n\n";
+    }
 
-    novelLibrary1.addShelf(shelf1);
-    novelLibrary1.addShelf(shelf2);
+    cout << "out of scope 1\n\n";
 
-    cout << "---- library 1 with poems ------------\n";
-    cout << poemLibrary1.toString();
-    cout << "\n\n";
+    // scope
+    {
+        cout << "\n\n in scope 2\n\n";
+        // Library<ShelfNovelBooks> novelLibrary1("l1");
+        std::unique_ptr<Library<ShelfNovelBooks>> novelLibrary1 = std::make_unique<Library<ShelfNovelBooks>>("l2");
+        novelLibrary1->addShelf(shelf1);
+        novelLibrary1->addShelf(shelf2);
 
-    cout << "---- library 2 with novels ------------\n";
-    cout << novelLibrary1.toString();
+        cout << "---- library 2 with novels ------------\n";
+        cout << novelLibrary1->toString();
+    }
+    cout << "out of scope 2\n\n";
+
+    {
+        cout << "in scope 3\n";
+        std::shared_ptr<Library<ShelfNovelBooks>> novelLibrary2 = std::make_shared<Library<ShelfNovelBooks>>("l3");
+        cout << novelLibrary2->toString();
+        {
+            cout << "in scope 4\n";
+            std::shared_ptr<Library<ShelfNovelBooks>> novelLibrary3 = novelLibrary2;
+            novelLibrary3->setName("l4");
+            cout << "4th library\n";
+            cout << novelLibrary3->toString();
+            cout << "\n3rd library\n";
+            cout << novelLibrary2->toString();
+            novelLibrary2->setName("l3");
+        }
+        cout << "out of scope 4\n";
+    }
+    cout << "out of scope 3\n\n";
+
+    cout << "program finished\n";
     return 0;
 }

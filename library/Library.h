@@ -31,6 +31,12 @@ public:
         this->currentShelves = 0;
     }
 
+    ~Library()
+    {
+        cout << "library destructor called for library " + this->name + "\n";
+        shelves.clear();
+    }
+
     void addShelf(T s)
     {
         if (currentShelves < MAX_NUMBER_SHELVES)
@@ -42,12 +48,17 @@ public:
 
     std::string toString()
     {
-        std::string stringtoreturn = "";
+        std::string stringtoreturn = "Library " + this->name + " : \n";
         for (T shelf : this->shelves)
         {
             stringtoreturn += shelf.toString() + "\n";
         }
         return stringtoreturn;
+    }
+
+    void setName(std::string newName)
+    {
+        this->name = newName;
     }
 };
 
