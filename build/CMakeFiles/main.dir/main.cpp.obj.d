@@ -103,11 +103,14 @@ CMakeFiles/main.dir/main.cpp.obj: G:/_devPrj/paoo-hw/main.cpp \
  d:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_vector.h \
  d:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_bvector.h \
  d:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\vector.tcc \
- g:\_devprj\paoo-hw\shelf\shelf.h g:\_devprj\paoo-hw\book\book.h \
- G:/_devPrj/paoo-hw/shelf/Shelf.h \
+ g:\_devprj\paoo-hw\shelf\shelfnovelbooks.cpp \
+ g:\_devprj\paoo-hw\shelf\Shelf.h g:\_devprj\paoo-hw\book\book.h \
+ g:\_devprj\paoo-hw\book\novelbook.cpp g:\_devprj\paoo-hw\book\Book.h \
+ g:\_devprj\paoo-hw\constants.h \
+ g:\_devprj\paoo-hw\shelf\shelfpoembooks.cpp \
+ g:\_devprj\paoo-hw\book\poembook.cpp G:/_devPrj/paoo-hw/shelf/Shelf.h \
  G:/_devPrj/paoo-hw/shelf/ShelfNovelBooks.cpp \
  G:/_devPrj/paoo-hw/shelf/Shelf.h g:\_devprj\paoo-hw\book\novelbook.cpp \
- g:\_devprj\paoo-hw\book\Book.h G:/_devPrj/paoo-hw/shelf/ShelfConstants.h \
  G:/_devPrj/paoo-hw/shelf/ShelfPoemBooks.cpp \
  g:\_devprj\paoo-hw\book\poembook.cpp G:/_devPrj/paoo-hw/book/Book.h \
  G:/_devPrj/paoo-hw/book/PoemBook.cpp G:/_devPrj/paoo-hw/book/Book.h \

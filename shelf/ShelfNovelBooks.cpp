@@ -3,8 +3,8 @@ using namespace std;
 
 #include "Shelf.h"
 #include "../book/NovelBook.cpp"
-#include "ShelfConstants.h"
-using namespace ShelfConstants;
+#include "../Constants.h"
+using namespace Constants;
 
 #ifndef SHELF_NOVEL_BOOK
 #define SHELF_NOVEL_BOOK
@@ -32,7 +32,7 @@ public:
     int addBook(NovelBook b)
     {
         cout << "in function addBook\n";
-        if ((ShelfConstants::TOTAL_NUMBER_OF_BOOKS > currentBooks) && (this->genre == b.getGenre()))
+        if ((Constants::TOTAL_NUMBER_OF_BOOKS > currentBooks) && (this->genre == b.getGenre()))
         {
             currentBooks++;
             this->books.push_back(std::move(b));

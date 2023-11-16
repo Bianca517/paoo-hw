@@ -1,7 +1,7 @@
 [
 {
   "directory": "G:/_devPrj/paoo-hw/build",
-  "command": "D:/MinGW/bin/c++.exe   -g -std=c++14 -o CMakeFiles/main.dir/main.cpp.obj -c G:/_devPrj/paoo-hw/main.cpp",
+  "command": "D:/MinGW/bin/c++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=c++14 -o CMakeFiles/main.dir/main.cpp.obj -c G:/_devPrj/paoo-hw/main.cpp",
   "file": "G:/_devPrj/paoo-hw/main.cpp",
   "output": "CMakeFiles/main.dir/main.cpp.obj"
 },
@@ -25,25 +25,25 @@
 },
 {
   "directory": "G:/_devPrj/paoo-hw/build/shelf",
-  "command": "D:/MinGW/bin/c++.exe   -g -std=c++14 -o CMakeFiles/shelf.dir/ShelfNovelBooks.cpp.obj -c G:/_devPrj/paoo-hw/shelf/ShelfNovelBooks.cpp",
+  "command": "D:/MinGW/bin/c++.exe  @CMakeFiles/shelf.dir/includes_CXX.rsp -g -std=c++14 -o CMakeFiles/shelf.dir/ShelfNovelBooks.cpp.obj -c G:/_devPrj/paoo-hw/shelf/ShelfNovelBooks.cpp",
   "file": "G:/_devPrj/paoo-hw/shelf/ShelfNovelBooks.cpp",
   "output": "shelf/CMakeFiles/shelf.dir/ShelfNovelBooks.cpp.obj"
 },
 {
   "directory": "G:/_devPrj/paoo-hw/build/shelf",
-  "command": "D:/MinGW/bin/c++.exe   -g -std=c++14 -o CMakeFiles/shelf.dir/ShelfPoemBooks.cpp.obj -c G:/_devPrj/paoo-hw/shelf/ShelfPoemBooks.cpp",
+  "command": "D:/MinGW/bin/c++.exe  @CMakeFiles/shelf.dir/includes_CXX.rsp -g -std=c++14 -o CMakeFiles/shelf.dir/ShelfPoemBooks.cpp.obj -c G:/_devPrj/paoo-hw/shelf/ShelfPoemBooks.cpp",
   "file": "G:/_devPrj/paoo-hw/shelf/ShelfPoemBooks.cpp",
   "output": "shelf/CMakeFiles/shelf.dir/ShelfPoemBooks.cpp.obj"
 },
 {
   "directory": "G:/_devPrj/paoo-hw/build/shelf",
-  "command": "D:/MinGW/bin/c++.exe   -g -std=c++14 -o CMakeFiles/shelf.dir/Shelf.cpp.obj -c G:/_devPrj/paoo-hw/shelf/Shelf.cpp",
+  "command": "D:/MinGW/bin/c++.exe  @CMakeFiles/shelf.dir/includes_CXX.rsp -g -std=c++14 -o CMakeFiles/shelf.dir/Shelf.cpp.obj -c G:/_devPrj/paoo-hw/shelf/Shelf.cpp",
   "file": "G:/_devPrj/paoo-hw/shelf/Shelf.cpp",
   "output": "shelf/CMakeFiles/shelf.dir/Shelf.cpp.obj"
 },
 {
   "directory": "G:/_devPrj/paoo-hw/build/library",
-  "command": "D:/MinGW/bin/c++.exe   -g -std=c++14 -o CMakeFiles/library.dir/Library.cpp.obj -c G:/_devPrj/paoo-hw/library/Library.cpp",
+  "command": "D:/MinGW/bin/c++.exe  @CMakeFiles/library.dir/includes_CXX.rsp -g -std=c++14 -o CMakeFiles/library.dir/Library.cpp.obj -c G:/_devPrj/paoo-hw/library/Library.cpp",
   "file": "G:/_devPrj/paoo-hw/library/Library.cpp",
   "output": "library/CMakeFiles/library.dir/Library.cpp.obj"
 }

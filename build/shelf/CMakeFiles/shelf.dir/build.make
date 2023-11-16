@@ -70,6 +70,7 @@ include shelf/CMakeFiles/shelf.dir/progress.make
 include shelf/CMakeFiles/shelf.dir/flags.make
 
 shelf/CMakeFiles/shelf.dir/ShelfNovelBooks.cpp.obj: shelf/CMakeFiles/shelf.dir/flags.make
+shelf/CMakeFiles/shelf.dir/ShelfNovelBooks.cpp.obj: shelf/CMakeFiles/shelf.dir/includes_CXX.rsp
 shelf/CMakeFiles/shelf.dir/ShelfNovelBooks.cpp.obj: G:/_devPrj/paoo-hw/shelf/ShelfNovelBooks.cpp
 shelf/CMakeFiles/shelf.dir/ShelfNovelBooks.cpp.obj: shelf/CMakeFiles/shelf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:/_devPrj/paoo-hw/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object shelf/CMakeFiles/shelf.dir/ShelfNovelBooks.cpp.obj"
@@ -84,6 +85,7 @@ shelf/CMakeFiles/shelf.dir/ShelfNovelBooks.cpp.s: cmake_force
 	cd G:/_devPrj/paoo-hw/build/shelf && D:/MinGW/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:/_devPrj/paoo-hw/shelf/ShelfNovelBooks.cpp -o CMakeFiles/shelf.dir/ShelfNovelBooks.cpp.s
 
 shelf/CMakeFiles/shelf.dir/ShelfPoemBooks.cpp.obj: shelf/CMakeFiles/shelf.dir/flags.make
+shelf/CMakeFiles/shelf.dir/ShelfPoemBooks.cpp.obj: shelf/CMakeFiles/shelf.dir/includes_CXX.rsp
 shelf/CMakeFiles/shelf.dir/ShelfPoemBooks.cpp.obj: G:/_devPrj/paoo-hw/shelf/ShelfPoemBooks.cpp
 shelf/CMakeFiles/shelf.dir/ShelfPoemBooks.cpp.obj: shelf/CMakeFiles/shelf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:/_devPrj/paoo-hw/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object shelf/CMakeFiles/shelf.dir/ShelfPoemBooks.cpp.obj"
@@ -98,6 +100,7 @@ shelf/CMakeFiles/shelf.dir/ShelfPoemBooks.cpp.s: cmake_force
 	cd G:/_devPrj/paoo-hw/build/shelf && D:/MinGW/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:/_devPrj/paoo-hw/shelf/ShelfPoemBooks.cpp -o CMakeFiles/shelf.dir/ShelfPoemBooks.cpp.s
 
 shelf/CMakeFiles/shelf.dir/Shelf.cpp.obj: shelf/CMakeFiles/shelf.dir/flags.make
+shelf/CMakeFiles/shelf.dir/Shelf.cpp.obj: shelf/CMakeFiles/shelf.dir/includes_CXX.rsp
 shelf/CMakeFiles/shelf.dir/Shelf.cpp.obj: G:/_devPrj/paoo-hw/shelf/Shelf.cpp
 shelf/CMakeFiles/shelf.dir/Shelf.cpp.obj: shelf/CMakeFiles/shelf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:/_devPrj/paoo-hw/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object shelf/CMakeFiles/shelf.dir/Shelf.cpp.obj"
